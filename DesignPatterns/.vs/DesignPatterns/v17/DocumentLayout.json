@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|d:\\personal\\design patterns\\designpatterns\\designpatterns\\adapterdp\\adapterdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\adapterdp\\adapterdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:adapterdp\\adapterdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,8 +34,7 @@
               "RelativeToolTip": "AdapterDP\\AdapterDp.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAowDwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T11:03:14.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T11:03:14.254Z"
             },
             {
               "$type": "Document",
@@ -45,7 +44,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAADwvxkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T10:58:19.35Z",
               "EditorCaption": ""
