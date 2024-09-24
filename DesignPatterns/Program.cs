@@ -1,49 +1,59 @@
 ﻿using DesignPatterns.AdapterDP;
+using DesignPatterns.StructuralDP.AdapterDP;
 using DesignPatterns.StructuralDP.Bridge_DP;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace DesignPatterns
 {
+    enum tempType
+    {
+        celcius,
+        fahrenheit
+    }
     internal class Program
     {
         static void Main(string[] args)
         {
+            //adapter dp
 
-            //Bridge DP
-            BridgeDP bridgeDP = new BridgeDP();
-            bridgeDP.Initialize();
+            while (true)
+            {
+                Console.WriteLine("Temp Type : ");
+                string TempType = Console.ReadLine();
 
-
-
-            //Adapter DP
-            
-            //RoundHole roundHole = new RoundHole(5);
-            //Console.WriteLine("Hole Radius : "+roundHole.getRadius().ToString());
-
-            //RoundPeg roundPeg = new RoundPeg(5);
-            //Console.WriteLine("peg Radius : " + roundPeg.getRadius().ToString());
-
-            //RoundPeg roundPeg_large = new RoundPeg(10);
-            //Console.WriteLine("peg Radius : " + roundPeg_large.getRadius().ToString());
-
-            //Console.WriteLine("will the peg fit in Round hole : " + roundHole.fits(roundPeg));
-            //Console.WriteLine("will the Large peg fit in Round hole : " + roundHole.fits(roundPeg_large));
-
-            //SquarePeg squarePeg = new SquarePeg(5);
-            ////roundHole.fits(squarePeg);
-            ////incompatible because the roundHole only takes only RoundPeg object
-
-            //// trying to achieve it with adapter.
-            //AdapterDp adapterDp = new AdapterDp(squarePeg);
-            //Console.WriteLine("get adapter radius : " + adapterDp.getRadius());
-            //Console.WriteLine("will the adapter fit in Round hole : " + roundHole.fits(adapterDp));
+                tempType tempTypeEnum;
+                if (!Enum.TryParse(TempType, true, out tempTypeEnum))
+                {
+                    Console.WriteLine("Invalid temperature type!");
+                    return;
+                }
 
 
-            Console.ReadLine();
+
+                Console.WriteLine("Mention Temp : ");
+                double Temperature = Convert.ToDouble(Console.ReadLine());
+                switch (tempTypeEnum)
+                {
+                    case tempType.celcius:
+                        Celcius celcius = new Celcius(Temperature);
+                        Console.WriteLine("Celcius temperatue : " + celcius.GetTempinCelcius() + " C");
+                        break;
+                    case tempType.fahrenheit:
+
+                        Fahrenheit fahrenheit = new Fahrenheit(Temperature);
+                        CelciusFahrenheitAdapter celciusFahrenheitAdapter = new CelciusFahrenheitAdapter(fahrenheit);
+                        Console.WriteLine($"Fahrenheit {Temperature} to Celcius temperatue Conversion: " + celciusFahrenheitAdapter.GetTempinCelcius()+" C");
+                        //Console.WriteLine("Fahrenheit temperatue : " + fahrenheit.GetTempinFahrenheit());
+                        break;
+                }
+
+                Console.ReadLine();
+            }
         }
     }
 }
