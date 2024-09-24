@@ -41,14 +41,14 @@ namespace DesignPatterns.StructuralDP.AdapterDP
     {
         public Fahrenheit Fahrenheit;
 
-        public CelciusFahrenheitAdapter(Fahrenheit fahrenheit) : base(0)
+        public CelciusFahrenheitAdapter(Fahrenheit fahrenheit) : base((fahrenheit.GetTempinFahrenheit() - 32) * (5.0 / 9.0))
         {
             this.Fahrenheit = fahrenheit;
         }   
         
         public override double GetTempinCelcius()
         {
-            return (this.Fahrenheit.GetTempinFahrenheit()-32)*(5.0/9.0) ;
+            return this.temp;
         }
     }
 }
