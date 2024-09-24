@@ -46,6 +46,7 @@
     <Compile Include="StructuralDP\AdapterDP\AdapterDp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StructuralDP\Bridge DP\BridgeDP.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
