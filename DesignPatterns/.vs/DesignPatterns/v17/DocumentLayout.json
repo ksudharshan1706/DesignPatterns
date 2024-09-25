@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|d:\\personal\\design patterns\\designpatterns\\designpatterns\\structuraldp\\adapterdp\\celciusfahrenheitadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:structuraldp\\adapterdp\\celciusfahrenheitadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|d:\\personal\\design patterns\\designpatterns\\designpatterns\\structuraldp\\bridge dp\\colorbridgedp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:structuraldp\\bridge dp\\colorbridgedp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\structuraldp\\adapterdp\\adapterdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:structuraldp\\adapterdp\\adapterdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|d:\\personal\\design patterns\\designpatterns\\designpatterns\\structuraldp\\bridge dp\\shapebridgedp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:structuraldp\\bridge dp\\shapebridgedp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|d:\\personal\\design patterns\\designpatterns\\designpatterns\\structuraldp\\bridge dp\\bridgedp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|d:\\personal\\design patterns\\designpatterns\\designpatterns\\structuraldp\\adapterdp\\paymentdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:structuraldp\\adapterdp\\paymentdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\structuraldp\\bridge dp\\bridgedp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:structuraldp\\bridge dp\\bridgedp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|d:\\personal\\design patterns\\designpatterns\\designpatterns\\structuraldp\\adapterdp\\celciusfahrenheitadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:structuraldp\\adapterdp\\celciusfahrenheitadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\structuraldp\\adapterdp\\adapterdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:structuraldp\\adapterdp\\adapterdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,19 +47,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ColorBridgeDp.cs",
+              "DocumentMoniker": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Bridge DP\\ColorBridgeDp.cs",
+              "RelativeDocumentMoniker": "StructuralDP\\Bridge DP\\ColorBridgeDp.cs",
+              "ToolTip": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Bridge DP\\ColorBridgeDp.cs",
+              "RelativeToolTip": "StructuralDP\\Bridge DP\\ColorBridgeDp.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAqwD4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T14:47:05.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShapeBridgeDp.cs",
+              "DocumentMoniker": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Bridge DP\\ShapeBridgeDp.cs",
+              "RelativeDocumentMoniker": "StructuralDP\\Bridge DP\\ShapeBridgeDp.cs",
+              "ToolTip": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Bridge DP\\ShapeBridgeDp.cs",
+              "RelativeToolTip": "StructuralDP\\Bridge DP\\ShapeBridgeDp.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA2wF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T14:25:51.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentDp.cs",
+              "DocumentMoniker": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\AdapterDP\\PaymentDp.cs",
+              "RelativeDocumentMoniker": "StructuralDP\\AdapterDP\\PaymentDp.cs",
+              "ToolTip": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\AdapterDP\\PaymentDp.cs",
+              "RelativeToolTip": "StructuralDP\\AdapterDP\\PaymentDp.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAcwDMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T13:11:00.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CelciusFahrenheitAdapter.cs",
               "DocumentMoniker": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\AdapterDP\\CelciusFahrenheitAdapter.cs",
               "RelativeDocumentMoniker": "StructuralDP\\AdapterDP\\CelciusFahrenheitAdapter.cs",
               "ToolTip": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\AdapterDP\\CelciusFahrenheitAdapter.cs",
               "RelativeToolTip": "StructuralDP\\AdapterDP\\CelciusFahrenheitAdapter.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAADAAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T14:53:10.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "AdapterDp.cs",
               "DocumentMoniker": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\AdapterDP\\AdapterDp.cs",
               "RelativeDocumentMoniker": "StructuralDP\\AdapterDP\\AdapterDp.cs",
@@ -55,18 +106,17 @@
               "RelativeToolTip": "StructuralDP\\AdapterDP\\AdapterDp.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwDsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T12:37:46.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T12:37:46.316Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BridgeDP.cs",
               "DocumentMoniker": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Bridge DP\\BridgeDP.cs",
               "RelativeDocumentMoniker": "StructuralDP\\Bridge DP\\BridgeDP.cs",
               "ToolTip": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Bridge DP\\BridgeDP.cs",
               "RelativeToolTip": "StructuralDP\\Bridge DP\\BridgeDP.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAdAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAowCsAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T12:00:57.528Z",
               "EditorCaption": ""
@@ -79,7 +129,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBoAAAA1AAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAUwBcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T10:58:19.35Z",
               "EditorCaption": ""
