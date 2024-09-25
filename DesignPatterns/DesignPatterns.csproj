@@ -47,6 +47,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StructuralDP\AdapterDP\CelciusFahrenheitAdapter.cs" />
+    <Compile Include="StructuralDP\AdapterDP\PaymentDp.cs" />
     <Compile Include="StructuralDP\Bridge DP\BridgeDP.cs" />
   </ItemGroup>
   <ItemGroup>

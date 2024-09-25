@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns
 {
-    enum tempType
+    enum currencyType
     {
-        celcius,
-        fahrenheit
+        dollar,
+        rupee
     }
     internal class Program
     {
@@ -23,32 +23,30 @@ namespace DesignPatterns
 
             while (true)
             {
-                Console.WriteLine("Temp Type : ");
-                string TempType = Console.ReadLine();
+                Console.WriteLine("currency Type : ");
+                string CurrencyType = Console.ReadLine();
 
-                tempType tempTypeEnum;
-                if (!Enum.TryParse(TempType, true, out tempTypeEnum))
+                currencyType currencyTypeEnum;
+                if (!Enum.TryParse(CurrencyType, true, out currencyTypeEnum))
                 {
-                    Console.WriteLine("Invalid temperature type!");
+                    Console.WriteLine("Invalid currency type!");
                     return;
                 }
 
 
 
-                Console.WriteLine("Mention Temp : ");
-                double Temperature = Convert.ToDouble(Console.ReadLine());
-                switch (tempTypeEnum)
+                Console.WriteLine("Mention amount : ");
+                double amount = Convert.ToDouble(Console.ReadLine());
+                switch (currencyTypeEnum)
                 {
-                    case tempType.celcius:
-                        Celcius celcius = new Celcius(Temperature);
-                        Console.WriteLine("Celcius temperatue : " + celcius.GetTempinCelcius() + " C");
+                    case currencyType.dollar:
+                        DollarPayment dollar = new DollarPayment(amount);
+                        Console.WriteLine("Dollar Amount : " + dollar.GetAmountinDollars() + " $");
                         break;
-                    case tempType.fahrenheit:
-
-                        Fahrenheit fahrenheit = new Fahrenheit(Temperature);
-                        CelciusFahrenheitAdapter celciusFahrenheitAdapter = new CelciusFahrenheitAdapter(fahrenheit);
-                        Console.WriteLine($"Fahrenheit {Temperature} to Celcius temperatue Conversion: " + celciusFahrenheitAdapter.GetTempinCelcius()+" C");
-                        //Console.WriteLine("Fahrenheit temperatue : " + fahrenheit.GetTempinFahrenheit());
+                    case currencyType.rupee:
+                        RupeePayment rupeePayment = new RupeePayment(amount);
+                        PaymentDp paymentDp = new PaymentDp(rupeePayment);
+                        Console.WriteLine("Rupee to Dollar Amount : " + paymentDp.GetAmountinDollars() + " $");
                         break;
                 }
 
