@@ -19,39 +19,14 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            //adapter dp
+            
+            //Bridge Dp
 
-            while (true)
-            {
-                Console.WriteLine("currency Type : ");
-                string CurrencyType = Console.ReadLine();
+            //ShapeBridgeDp shapeBridgeDp = new ShapeBridgeDp();
 
-                currencyType currencyTypeEnum;
-                if (!Enum.TryParse(CurrencyType, true, out currencyTypeEnum))
-                {
-                    Console.WriteLine("Invalid currency type!");
-                    return;
-                }
+            ColorBridgeDp colorBridgeDp = new ColorBridgeDp();
 
-
-
-                Console.WriteLine("Mention amount : ");
-                double amount = Convert.ToDouble(Console.ReadLine());
-                switch (currencyTypeEnum)
-                {
-                    case currencyType.dollar:
-                        DollarPayment dollar = new DollarPayment(amount);
-                        Console.WriteLine("Dollar Amount : " + dollar.GetAmountinDollars() + " $");
-                        break;
-                    case currencyType.rupee:
-                        RupeePayment rupeePayment = new RupeePayment(amount);
-                        PaymentDp paymentDp = new PaymentDp(rupeePayment);
-                        Console.WriteLine("Rupee to Dollar Amount : " + paymentDp.GetAmountinDollars() + " $");
-                        break;
-                }
-
-                Console.ReadLine();
-            }
+            Console.ReadLine();
         }
     }
 }

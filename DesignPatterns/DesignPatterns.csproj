@@ -49,6 +49,8 @@
     <Compile Include="StructuralDP\AdapterDP\CelciusFahrenheitAdapter.cs" />
     <Compile Include="StructuralDP\AdapterDP\PaymentDp.cs" />
     <Compile Include="StructuralDP\Bridge DP\BridgeDP.cs" />
+    <Compile Include="StructuralDP\Bridge DP\ColorBridgeDp.cs" />
+    <Compile Include="StructuralDP\Bridge DP\ShapeBridgeDp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
