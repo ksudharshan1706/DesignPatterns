@@ -20,23 +20,17 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            
+
             //Decorator Dp
 
+            Icoffee coffee = new Coffee();
+            Icoffee whippedcreamCoffee = new WhippedCreamDecorator(coffee);
+            Icoffee MilkCoffee = new MilkDecorator(whippedcreamCoffee);
+            Icoffee sugarCoffee = new SugarDecorator(MilkCoffee);
 
-            IPizza pizza = new Pizza();
-            //IPizza CheesePizza = new CheeseDecorator(pizza);
-            //IPizza TomatoPizza = new TomatoDecorator(pizza);
-            //IPizza OnionPizza = new OnionDecorator(pizza);
-            IPizza CheesePizza = new CheeseDecorator(pizza);
-            IPizza TomatoPizza = new TomatoDecorator(CheesePizza);
-            IPizza OnionPizza = new OnionDecorator(TomatoPizza);
+            Console.WriteLine(sugarCoffee.getCoffee());
+           
 
-
-
-            //Console.WriteLine(CheesePizza.getPizzaType());
-            //Console.WriteLine(TomatoPizza.getPizzaType());
-            Console.WriteLine(OnionPizza.getPizzaType());
 
             Console.ReadLine(); 
 
