@@ -51,6 +51,8 @@
     <Compile Include="StructuralDP\Bridge DP\BridgeDP.cs" />
     <Compile Include="StructuralDP\Bridge DP\ColorBridgeDp.cs" />
     <Compile Include="StructuralDP\Bridge DP\ShapeBridgeDp.cs" />
+    <Compile Include="StructuralDP\Decorator DP\DecoratorDP.cs" />
+    <Compile Include="StructuralDP\Decorator DP\PizzaDecoratorDP.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

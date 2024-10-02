@@ -1,6 +1,7 @@
 ﻿using DesignPatterns.AdapterDP;
 using DesignPatterns.StructuralDP.AdapterDP;
 using DesignPatterns.StructuralDP.Bridge_DP;
+using DesignPatterns.StructuralDP.Decorator_DP;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -20,13 +21,25 @@ namespace DesignPatterns
         static void Main(string[] args)
         {
             
-            //Bridge Dp
+            //Decorator Dp
 
-            //ShapeBridgeDp shapeBridgeDp = new ShapeBridgeDp();
 
-            ColorBridgeDp colorBridgeDp = new ColorBridgeDp();
+            IPizza pizza = new Pizza();
+            //IPizza CheesePizza = new CheeseDecorator(pizza);
+            //IPizza TomatoPizza = new TomatoDecorator(pizza);
+            //IPizza OnionPizza = new OnionDecorator(pizza);
+            IPizza CheesePizza = new CheeseDecorator(pizza);
+            IPizza TomatoPizza = new TomatoDecorator(CheesePizza);
+            IPizza OnionPizza = new OnionDecorator(TomatoPizza);
 
-            Console.ReadLine();
+
+
+            //Console.WriteLine(CheesePizza.getPizzaType());
+            //Console.WriteLine(TomatoPizza.getPizzaType());
+            Console.WriteLine(OnionPizza.getPizzaType());
+
+            Console.ReadLine(); 
+
         }
     }
 }
