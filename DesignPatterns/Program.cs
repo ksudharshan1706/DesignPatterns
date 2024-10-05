@@ -2,6 +2,7 @@
 using DesignPatterns.StructuralDP.AdapterDP;
 using DesignPatterns.StructuralDP.Bridge_DP;
 using DesignPatterns.StructuralDP.Decorator_DP;
+using DesignPatterns.StructuralDP.Facade_DP;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -21,18 +22,12 @@ namespace DesignPatterns
         static void Main(string[] args)
         {
 
-            //Decorator Dp
+            //Facade Dp
 
-            Icoffee coffee = new Coffee();
-            Icoffee whippedcreamCoffee = new WhippedCreamDecorator(coffee);
-            Icoffee MilkCoffee = new MilkDecorator(whippedcreamCoffee);
-            Icoffee sugarCoffee = new SugarDecorator(MilkCoffee);
-
-            Console.WriteLine(sugarCoffee.getCoffee());
-           
-
-
+            FacadeDp facadeDp = new FacadeDp();
+            facadeDp.placeOrder();
             Console.ReadLine(); 
+
 
         }
     }
