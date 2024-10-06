@@ -7,28 +7,12 @@
       "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|d:\\personal\\design patterns\\designpatterns\\designpatterns\\structuraldp\\facade dp\\realtimeexample\\customerregistrationapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:structuraldp\\facade dp\\realtimeexample\\customerregistrationapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|d:\\personal\\design patterns\\designpatterns\\designpatterns\\structuraldp\\flyweight dp\\realtimeexample\\coffeeflyweightdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:structuraldp\\flyweight dp\\realtimeexample\\coffeeflyweightdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|d:\\personal\\design patterns\\designpatterns\\designpatterns\\structuraldp\\facade dp\\realtimeexample\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:structuraldp\\facade dp\\realtimeexample\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|d:\\personal\\design patterns\\designpatterns\\designpatterns\\structuraldp\\facade dp\\realtimeexample\\customervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:structuraldp\\facade dp\\realtimeexample\\customervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|d:\\personal\\design patterns\\designpatterns\\designpatterns\\structuraldp\\facade dp\\realtimeexample\\customerdataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:structuraldp\\facade dp\\realtimeexample\\customerdataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|d:\\personal\\design patterns\\designpatterns\\designpatterns\\structuraldp\\facade dp\\realtimeexample\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\structuraldp\\facade dp\\realtimeexample\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:structuraldp\\facade dp\\realtimeexample\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|d:\\personal\\design patterns\\designpatterns\\designpatterns\\structuraldp\\facade dp\\realtimeexample\\validateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:structuraldp\\facade dp\\realtimeexample\\validateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,7 +32,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvx4AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAxwBUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T10:58:19.35Z",
               "IsPinned": true,
@@ -56,46 +40,20 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoffeeFlyweightDp.cs",
+              "DocumentMoniker": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Flyweight DP\\RealTimeExample\\CoffeeFlyweightDp.cs",
+              "RelativeDocumentMoniker": "StructuralDP\\Flyweight DP\\RealTimeExample\\CoffeeFlyweightDp.cs",
+              "ToolTip": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Flyweight DP\\RealTimeExample\\CoffeeFlyweightDp.cs",
+              "RelativeToolTip": "StructuralDP\\Flyweight DP\\RealTimeExample\\CoffeeFlyweightDp.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAswBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T12:19:17.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Email.cs",
-              "DocumentMoniker": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Facade DP\\RealTimeExample\\Email.cs",
-              "RelativeDocumentMoniker": "StructuralDP\\Facade DP\\RealTimeExample\\Email.cs",
-              "ToolTip": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Facade DP\\RealTimeExample\\Email.cs",
-              "RelativeToolTip": "StructuralDP\\Facade DP\\RealTimeExample\\Email.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T12:38:44.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ValidateResult.cs",
-              "DocumentMoniker": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Facade DP\\RealTimeExample\\ValidateResult.cs",
-              "RelativeDocumentMoniker": "StructuralDP\\Facade DP\\RealTimeExample\\ValidateResult.cs",
-              "ToolTip": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Facade DP\\RealTimeExample\\ValidateResult.cs",
-              "RelativeToolTip": "StructuralDP\\Facade DP\\RealTimeExample\\ValidateResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T12:10:08.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerDataAccessLayer.cs",
-              "DocumentMoniker": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Facade DP\\RealTimeExample\\CustomerDataAccessLayer.cs",
-              "RelativeDocumentMoniker": "StructuralDP\\Facade DP\\RealTimeExample\\CustomerDataAccessLayer.cs",
-              "ToolTip": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Facade DP\\RealTimeExample\\CustomerDataAccessLayer.cs",
-              "RelativeToolTip": "StructuralDP\\Facade DP\\RealTimeExample\\CustomerDataAccessLayer.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA7wBsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T11:46:08.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Customer.cs",
               "DocumentMoniker": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Facade DP\\RealTimeExample\\Customer.cs",
               "RelativeDocumentMoniker": "StructuralDP\\Facade DP\\RealTimeExample\\Customer.cs",
@@ -104,32 +62,6 @@
               "ViewState": "AgIAAAQAAAAAAAAAAAAIwAwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-05T11:40:24.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerValidator.cs",
-              "DocumentMoniker": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Facade DP\\RealTimeExample\\CustomerValidator.cs",
-              "RelativeDocumentMoniker": "StructuralDP\\Facade DP\\RealTimeExample\\CustomerValidator.cs",
-              "ToolTip": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Facade DP\\RealTimeExample\\CustomerValidator.cs",
-              "RelativeToolTip": "StructuralDP\\Facade DP\\RealTimeExample\\CustomerValidator.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAADgvzYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T11:39:52.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomerRegistrationApp.cs",
-              "DocumentMoniker": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Facade DP\\RealTimeExample\\CustomerRegistrationApp.cs",
-              "RelativeDocumentMoniker": "StructuralDP\\Facade DP\\RealTimeExample\\CustomerRegistrationApp.cs",
-              "ToolTip": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Facade DP\\RealTimeExample\\CustomerRegistrationApp.cs",
-              "RelativeToolTip": "StructuralDP\\Facade DP\\RealTimeExample\\CustomerRegistrationApp.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwB8AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T11:39:21.249Z",
               "EditorCaption": ""
             }
           ]
