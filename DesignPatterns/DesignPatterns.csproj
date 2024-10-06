@@ -166,6 +166,7 @@
     <Compile Include="StructuralDP\Facade DP\RealTimeExample\CustomerValidator.cs" />
     <Compile Include="StructuralDP\Facade DP\RealTimeExample\Email.cs" />
     <Compile Include="StructuralDP\Facade DP\RealTimeExample\ValidateResult.cs" />
+    <Compile Include="StructuralDP\Flyweight DP\FLyweightDP.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

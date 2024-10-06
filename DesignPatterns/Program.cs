@@ -1,9 +1,9 @@
 ﻿using DesignPatterns.AdapterDP;
 using DesignPatterns.StructuralDP.AdapterDP;
-using DesignPatterns.StructuralDP.Bridge_DP;
 using DesignPatterns.StructuralDP.Decorator_DP;
 using DesignPatterns.StructuralDP.Facade_DP;
 using DesignPatterns.StructuralDP.Facade_DP.RealTimeExample;
+using DesignPatterns.StructuralDP.Flyweight_DP;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -23,12 +23,48 @@ namespace DesignPatterns
         static void Main(string[] args)
         {
 
-            //Facade Dp
-            Customer customer = new Customer("Sudharshan","9515230251","sudha123@gmail.com","Hyderabad, India");
-            CustomerRegistrationApp customerRegistrationApp = new CustomerRegistrationApp(customer);
-            customerRegistrationApp.RegisterCustomer();
-            Console.ReadLine();
-           
+            //Flyweight DP
+
+            Console.WriteLine("\n Red color Circles ");
+            for (int i = 0; i < 3; i++)
+            {
+                Circle circle = (Circle)ShapeFactory.GetShape("circle");
+                circle.setColor("Red");
+                circle.Draw();
+            }
+            //Creating Circle Objects with Green Color
+            Console.WriteLine("\n Green color Circles ");
+            for (int i = 0; i < 3; i++)
+            {
+                Circle circle = (Circle)ShapeFactory.GetShape("circle");
+                circle.setColor("Green");
+                circle.Draw();
+            }
+            //Creating Circle Objects with Blue Color
+            Console.WriteLine("\n Blue color Circles");
+            for (int i = 0; i < 3; ++i)
+            {
+                Circle circle = (Circle)ShapeFactory.GetShape("circle");
+                circle.setColor("Green");
+                circle.Draw();
+            }
+            //Creating Circle Objects with Orange Color
+            Console.WriteLine("\n Orange color Circles");
+            for (int i = 0; i < 3; ++i)
+            {
+                Circle circle = (Circle)ShapeFactory.GetShape("circle");
+                circle.setColor("Orange");
+                circle.Draw();
+            }
+            //Creating Circle Objects with Black Color
+            Console.WriteLine("\n Black color Circles");
+            for (int i = 0; i < 3; ++i)
+            {
+                Circle circle = (Circle)ShapeFactory.GetShape("circle");
+                circle.setColor("Black");
+                circle.Draw();
+            }
+            Console.ReadKey();
 
         }
     }
