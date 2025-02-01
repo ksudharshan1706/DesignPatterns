@@ -149,6 +149,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DI\ClassA.cs" />
+    <Compile Include="DI\ClassB.cs" />
+    <Compile Include="DI\ClassC.cs" />
+    <Compile Include="DI\classInterface.cs" />
     <Compile Include="StructuralDP\AdapterDP\AdapterDp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.AdapterDP;
+using DesignPatterns.DI;
 using DesignPatterns.StructuralDP.AdapterDP;
 using DesignPatterns.StructuralDP.Facade_DP;
 using DesignPatterns.StructuralDP.Facade_DP.RealTimeExample;
@@ -25,12 +26,12 @@ namespace DesignPatterns
 
             //Coffee Flyweight DP
 
-            var shop = new CoffeeShop();
-            shop.TakeOrders("Cappuccino", 1);
-            shop.TakeOrders("Espresso", 2, "With extra sugar");
-            shop.TakeOrders("Cappuccino", 3);
-            shop.TakeOrders("Latte", 4);
-            shop.ServeOrder();
+
+            //IclassInterface classinstance = new ClassA();
+            IclassInterface classinstance = new ClassC();
+            ClassB cb = new ClassB(classinstance);
+            cb.funcA();
+            cb.funcB();
 
             Console.ReadKey();
 
