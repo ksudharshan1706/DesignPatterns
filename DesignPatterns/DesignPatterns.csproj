@@ -149,6 +149,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\SealedClass.cs" />
     <Compile Include="DI\ClassA.cs" />
     <Compile Include="DI\ClassB.cs" />
     <Compile Include="DI\ClassC.cs" />

@@ -19,22 +19,43 @@ namespace DesignPatterns
         dollar,
         rupee
     }
-    internal class Program
+
+    delegate void Calculator(int x, int y);
+    public class Program
     {
+        public static void Add(int a, int b)
+        {
+            Console.WriteLine(a + b);
+        }
+
+        public static void Mul(int c, int d)
+        {
+            Console.WriteLine(c * d);
+        }
+        public static void Sub(int a, int b)
+        {
+            Console.WriteLine(a - b);
+        }
+
+        //Delegate:
+
+        //delegate is a variable which refers to the Method or points to the method.
+        //a single delegate can refer to one or more methods with same return type and no. of parameters.
+        // when we try to send a method as a parameter to a function we can use a delegate.
+
         static void Main(string[] args)
         {
+            Calculator cal = new Calculator(Sub);
+            cal += Mul;
+            cal(10, 20);
 
-            //Coffee Flyweight DP
-
-
-            //IclassInterface classinstance = new ClassA();
-            IclassInterface classinstance = new ClassC();
-            ClassB cb = new ClassB(classinstance);
-            cb.funcA();
-            cb.funcB();
 
             Console.ReadKey();
 
         }
     }
 }
+
+//Multi-cast Delegate:
+//a multi cast delegate is a delegate which holds reference to more than one method.
+
