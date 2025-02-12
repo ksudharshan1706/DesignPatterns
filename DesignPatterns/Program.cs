@@ -10,49 +10,89 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace DesignPatterns
 {
-    enum currencyType
-    {
-        dollar,
-        rupee
-    }
-
-    delegate void Calculator(int x, int y);
     public class Program
     {
-        public static void Add(int a, int b)
+
+        static void PrintNumbers(object id)
         {
-            Console.WriteLine(a + b);
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.WriteLine($"Thread {id}: {i}");
+                Thread.Sleep(500);
+            }
         }
 
-        public static void Mul(int c, int d)
+        static void Main()
         {
-            Console.WriteLine(c * d);
+            Thread thread1 = new Thread(PrintNumbers);
+            Thread thread2 = new Thread(PrintNumbers);
+
+            thread1.Start(1);
+            thread2.Start(2);
+
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.WriteLine($"Main Thread: {i}");
+                Thread.Sleep(500);
+            }
+
+            thread1.Join();
+            thread2.Join();
+
+            Console.WriteLine("All threads finished!");
         }
-        public static void Sub(int a, int b)
-        {
-            Console.WriteLine(a - b);
-        }
 
-        //Delegate:
+        //static async Task PrintMessage()
+        //{
+        //    for (int i = 1; i <= 5; i++)
+        //    {
+        //        Console.WriteLine($"Task Message {i}");
+        //        await Task.Delay(500); // Simulate async work
+        //    }
+        //}
 
-        //delegate is a variable which refers to the Method or points to the method.
-        //a single delegate can refer to one or more methods with same return type and no. of parameters.
-        // when we try to send a method as a parameter to a function we can use a delegate.
+        //static async Task Main()
+        //{
+        //    Task task = PrintMessage();
 
-        static void Main(string[] args)
-        {
-            Calculator cal = new Calculator(Sub);
-            cal += Mul;
-            cal(10, 20);
+        //    for (int i = 1; i <= 5; i++)
+        //    {
+        //        Console.WriteLine($"Main Task Message {i}");
+        //        await Task.Delay(500);
+        //    }
 
+        //    await task; // Wait for the task to finish
+        //    Console.WriteLine("Task finished!");
+        //}
 
-            Console.ReadKey();
+        //static void PrintMessage()
+        //{
+        //    for (int i = 1; i <= 5; i++)
+        //    {
+        //        Console.WriteLine($"Thread Message {i}");
+        //        Thread.Sleep(500); // Simulate work
+        //    }
+        //}
 
-        }
+        //static void Main()
+        //{
+        //    Thread thread = new Thread(PrintMessage);
+        //    thread.Start();
+
+        //    for (int j = 1; j <= 5; j++)
+        //    {
+        //        Console.WriteLine($"Main Thread Message {j}");
+        //        Thread.Sleep(500);
+        //    }
+
+        //    thread.Join(); // Wait for the thread to finish
+        //    Console.WriteLine("Thread finished!");
+        //}
     }
 }
 

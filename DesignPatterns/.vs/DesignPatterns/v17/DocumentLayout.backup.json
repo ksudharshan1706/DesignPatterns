@@ -7,28 +7,20 @@
       "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|d:\\personal\\design patterns\\designpatterns\\designpatterns\\di\\classa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:di\\classa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|d:\\personal\\design patterns\\designpatterns\\designpatterns\\di\\classc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:di\\classc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|d:\\personal\\design patterns\\designpatterns\\designpatterns\\di\\classb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:di\\classb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|d:\\personal\\design patterns\\designpatterns\\designpatterns\\di\\classinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\di\\classinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:di\\classinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\structuraldp\\flyweight dp\\realtimeexample\\coffeeflyweightdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:structuraldp\\flyweight dp\\realtimeexample\\coffeeflyweightdp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\di\\classb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:di\\classb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\structuraldp\\facade dp\\realtimeexample\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:structuraldp\\facade dp\\realtimeexample\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\di\\classa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:di\\classa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\di\\classc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A895714-9631-4A18-9FB7-82362562B6B0}|DesignPatterns.csproj|solutionrelative:di\\classc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,7 +40,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAB0AAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAzwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T10:58:19.35Z",
               "IsPinned": true,
@@ -56,7 +48,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ClassC.cs",
               "DocumentMoniker": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\DI\\ClassC.cs",
               "RelativeDocumentMoniker": "DI\\ClassC.cs",
@@ -64,12 +56,11 @@
               "RelativeToolTip": "DI\\ClassC.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T06:47:00.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-31T06:47:00.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "classInterface.cs",
               "DocumentMoniker": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\DI\\classInterface.cs",
               "RelativeDocumentMoniker": "DI\\classInterface.cs",
@@ -77,25 +68,23 @@
               "RelativeToolTip": "DI\\classInterface.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T06:43:21.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-31T06:43:21.996Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ClassB.cs",
               "DocumentMoniker": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\DI\\ClassB.cs",
               "RelativeDocumentMoniker": "DI\\ClassB.cs",
               "ToolTip": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\DI\\ClassB.cs",
               "RelativeToolTip": "DI\\ClassB.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADgvxkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAADgvwsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T06:35:41.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-31T06:35:41.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ClassA.cs",
               "DocumentMoniker": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\DI\\ClassA.cs",
               "RelativeDocumentMoniker": "DI\\ClassA.cs",
@@ -103,32 +92,7 @@
               "RelativeToolTip": "DI\\ClassA.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAUwBEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T06:35:01.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CoffeeFlyweightDp.cs",
-              "DocumentMoniker": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Flyweight DP\\RealTimeExample\\CoffeeFlyweightDp.cs",
-              "RelativeDocumentMoniker": "StructuralDP\\Flyweight DP\\RealTimeExample\\CoffeeFlyweightDp.cs",
-              "ToolTip": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Flyweight DP\\RealTimeExample\\CoffeeFlyweightDp.cs",
-              "RelativeToolTip": "StructuralDP\\Flyweight DP\\RealTimeExample\\CoffeeFlyweightDp.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAswBgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T12:19:17.246Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Facade DP\\RealTimeExample\\Customer.cs",
-              "RelativeDocumentMoniker": "StructuralDP\\Facade DP\\RealTimeExample\\Customer.cs",
-              "ToolTip": "D:\\Personal\\Design Patterns\\DesignPatterns\\DesignPatterns\\StructuralDP\\Facade DP\\RealTimeExample\\Customer.cs",
-              "RelativeToolTip": "StructuralDP\\Facade DP\\RealTimeExample\\Customer.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAIwAwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T11:40:24.726Z"
+              "WhenOpened": "2025-01-31T06:35:01.39Z"
             }
           ]
         }
